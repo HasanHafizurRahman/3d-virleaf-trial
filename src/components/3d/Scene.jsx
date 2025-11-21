@@ -13,7 +13,7 @@ const Scene = ({ scrollY }) => {
             <ParticleField />
             <HeroEntity scrollY={scrollY} />
 
-            <Environment preset="city" />
+            {/* <Environment preset="city" /> */}
         </>
     );
 };
