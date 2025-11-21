@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* CSS-first theme variables (example) */
+@theme {
+  --color-electric-green: #00DC82;
+  --color-deep-violet: #6C5CE7;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Use CSS variables in custom utilities */
+.btn-ghost {
+  background-color: var(--color-electric-green);
+  color: #050505;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+}
